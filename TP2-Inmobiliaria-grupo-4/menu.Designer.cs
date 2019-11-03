@@ -1,0 +1,108 @@
+﻿namespace TP2_Inmobiliaria_grupo_4
+{
+    partial class form_menu
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.btn_alta_viviendas = new System.Windows.Forms.Button();
+            this.btn_alta_empresas = new System.Windows.Forms.Button();
+            this.btn_alta_promociones = new System.Windows.Forms.Button();
+            this.btn_consultas = new System.Windows.Forms.Button();
+            this.btn_salir = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // btn_alta_viviendas
+            // 
+            this.btn_alta_viviendas.Location = new System.Drawing.Point(213, 36);
+            this.btn_alta_viviendas.Name = "btn_alta_viviendas";
+            this.btn_alta_viviendas.Size = new System.Drawing.Size(121, 38);
+            this.btn_alta_viviendas.TabIndex = 0;
+            this.btn_alta_viviendas.Text = "Alta Viviendas";
+            this.btn_alta_viviendas.UseVisualStyleBackColor = true;
+            this.btn_alta_viviendas.Click += new System.EventHandler(this.btn_alta_viviendas_Click);
+            // 
+            // btn_alta_empresas
+            // 
+            this.btn_alta_empresas.Location = new System.Drawing.Point(213, 80);
+            this.btn_alta_empresas.Name = "btn_alta_empresas";
+            this.btn_alta_empresas.Size = new System.Drawing.Size(121, 38);
+            this.btn_alta_empresas.TabIndex = 1;
+            this.btn_alta_empresas.Text = "Alta Empresas";
+            this.btn_alta_empresas.UseVisualStyleBackColor = true;
+            // 
+            // btn_alta_promociones
+            // 
+            this.btn_alta_promociones.Location = new System.Drawing.Point(213, 124);
+            this.btn_alta_promociones.Name = "btn_alta_promociones";
+            this.btn_alta_promociones.Size = new System.Drawing.Size(121, 38);
+            this.btn_alta_promociones.TabIndex = 2;
+            this.btn_alta_promociones.Text = "Alta Promociones";
+            this.btn_alta_promociones.UseVisualStyleBackColor = true;
+            // 
+            // btn_consultas
+            // 
+            this.btn_consultas.Location = new System.Drawing.Point(213, 168);
+            this.btn_consultas.Name = "btn_consultas";
+            this.btn_consultas.Size = new System.Drawing.Size(121, 38);
+            this.btn_consultas.TabIndex = 3;
+            this.btn_consultas.Text = "Consultas";
+            this.btn_consultas.UseVisualStyleBackColor = true;
+            // 
+            // btn_salir
+            // 
+            this.btn_salir.Location = new System.Drawing.Point(213, 212);
+            this.btn_salir.Name = "btn_salir";
+            this.btn_salir.Size = new System.Drawing.Size(121, 38);
+            this.btn_salir.TabIndex = 4;
+            this.btn_salir.Text = "Salir";
+            this.btn_salir.UseVisualStyleBackColor = true;
+            // 
+            // form_menu
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(549, 336);
+            this.Controls.Add(this.btn_salir);
+            this.Controls.Add(this.btn_consultas);
+            this.Controls.Add(this.btn_alta_promociones);
+            this.Controls.Add(this.btn_alta_empresas);
+            this.Controls.Add(this.btn_alta_viviendas);
+            this.Name = "form_menu";
+            this.Text = "TP Menu Principal - Inmobiliaria";
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button btn_alta_viviendas;
+        private System.Windows.Forms.Button btn_alta_empresas;
+        private System.Windows.Forms.Button btn_alta_promociones;
+        private System.Windows.Forms.Button btn_consultas;
+        private System.Windows.Forms.Button btn_salir;
+    }
+}
