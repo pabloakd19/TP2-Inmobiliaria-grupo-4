@@ -22,5 +22,15 @@ namespace TP2_Inmobiliaria_grupo_4
             form_alta_viviendas alta_viviendas = new form_alta_viviendas();
             alta_viviendas.Show();
         }
+
+        private void form_menu_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_aboutus_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Grupo 4 Integrantes:\n Andrea Lopez\n Alcides Barrios\n Federico Perez Krohn\n Fernando Puchalski\n Pablo Tartalo");
+        }
     }
 }
