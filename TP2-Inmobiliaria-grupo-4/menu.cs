@@ -32,5 +32,10 @@ namespace TP2_Inmobiliaria_grupo_4
         {
             MessageBox.Show("Grupo 4 Integrantes:\n Andrea Lopez\n Alcides Barrios\n Federico Perez Krohn\n Fernando Puchalski\n Pablo Tartalo");
         }
+
+        private void btn_salir_Click(object sender, EventArgs e)
+        {
+          this.Close();
+        }
     }
 }

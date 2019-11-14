@@ -76,12 +76,13 @@
             // 
             // btn_salir
             // 
-            this.btn_salir.Location = new System.Drawing.Point(213, 212);
+            this.btn_salir.Location = new System.Drawing.Point(213, 263);
             this.btn_salir.Name = "btn_salir";
             this.btn_salir.Size = new System.Drawing.Size(121, 38);
             this.btn_salir.TabIndex = 4;
-            this.btn_salir.Text = "Salir";
+            this.btn_salir.Text = "Salir del Sistema";
             this.btn_salir.UseVisualStyleBackColor = true;
+            this.btn_salir.Click += new System.EventHandler(this.btn_salir_Click);
             // 
             // button1
             // 
