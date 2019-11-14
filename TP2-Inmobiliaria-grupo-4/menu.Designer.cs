@@ -94,11 +94,11 @@
             // 
             // btn_aboutus
             // 
-            this.btn_aboutus.Location = new System.Drawing.Point(917, 339);
+            this.btn_aboutus.Location = new System.Drawing.Point(1055, 339);
             this.btn_aboutus.Name = "btn_aboutus";
-            this.btn_aboutus.Size = new System.Drawing.Size(92, 41);
+            this.btn_aboutus.Size = new System.Drawing.Size(112, 41);
             this.btn_aboutus.TabIndex = 6;
-            this.btn_aboutus.Text = "Desarrolladores";
+            this.btn_aboutus.Text = "Desarrollado por ...";
             this.btn_aboutus.UseVisualStyleBackColor = true;
             this.btn_aboutus.Click += new System.EventHandler(this.btn_aboutus_Click);
             // 
