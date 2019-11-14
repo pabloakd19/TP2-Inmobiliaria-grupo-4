@@ -92,7 +92,7 @@
             this.Controls.Add(this.btn_alta_empresas);
             this.Controls.Add(this.btn_alta_viviendas);
             this.Name = "form_menu";
-            this.Text = "TP Menu Principal - Inmobiliaria";
+            this.Text = "TP Menu Principal - Inmobiliaria  desde Github";
             this.ResumeLayout(false);
 
         }
