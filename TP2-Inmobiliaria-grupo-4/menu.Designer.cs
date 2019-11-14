@@ -33,6 +33,8 @@
             this.btn_alta_promociones = new System.Windows.Forms.Button();
             this.btn_consultas = new System.Windows.Forms.Button();
             this.btn_salir = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btn_aboutus = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_alta_viviendas
@@ -74,25 +76,49 @@
             // 
             // btn_salir
             // 
-            this.btn_salir.Location = new System.Drawing.Point(213, 212);
+            this.btn_salir.Location = new System.Drawing.Point(213, 263);
             this.btn_salir.Name = "btn_salir";
             this.btn_salir.Size = new System.Drawing.Size(121, 38);
             this.btn_salir.TabIndex = 4;
-            this.btn_salir.Text = "Salir";
+            this.btn_salir.Text = "Salir del Sistema";
             this.btn_salir.UseVisualStyleBackColor = true;
+            this.btn_salir.Click += new System.EventHandler(this.btn_salir_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(0, 0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // btn_aboutus
+            // 
+            this.btn_aboutus.Location = new System.Drawing.Point(1036, 328);
+            this.btn_aboutus.Name = "btn_aboutus";
+            this.btn_aboutus.Size = new System.Drawing.Size(112, 41);
+            this.btn_aboutus.TabIndex = 6;
+            this.btn_aboutus.Text = "Desarrollado por ...";
+            this.btn_aboutus.UseVisualStyleBackColor = true;
+            this.btn_aboutus.Click += new System.EventHandler(this.btn_aboutus_Click);
             // 
             // form_menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(549, 336);
+            this.BackgroundImage = global::TP2_Inmobiliaria_grupo_4.Properties.Resources._2019_11_14_1821;
+            this.ClientSize = new System.Drawing.Size(1179, 392);
+            this.Controls.Add(this.btn_aboutus);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btn_salir);
             this.Controls.Add(this.btn_consultas);
             this.Controls.Add(this.btn_alta_promociones);
             this.Controls.Add(this.btn_alta_empresas);
             this.Controls.Add(this.btn_alta_viviendas);
             this.Name = "form_menu";
-            this.Text = "TP Menu Principal - Inmobiliaria";
+            this.Text = "Inmobiliaria GITHUB";
+            this.Load += new System.EventHandler(this.form_menu_Load);
             this.ResumeLayout(false);
 
         }
@@ -104,5 +130,7 @@
         private System.Windows.Forms.Button btn_alta_promociones;
         private System.Windows.Forms.Button btn_consultas;
         private System.Windows.Forms.Button btn_salir;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_aboutus;
     }
 }
