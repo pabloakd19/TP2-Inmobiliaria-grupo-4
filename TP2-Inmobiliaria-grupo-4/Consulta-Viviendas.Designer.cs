@@ -133,6 +133,7 @@
             this.btn_consulta4.TabIndex = 8;
             this.btn_consulta4.Text = "Consultar Viviendas";
             this.btn_consulta4.UseVisualStyleBackColor = true;
+            this.btn_consulta4.Click += new System.EventHandler(this.btn_consulta4_Click);
             // 
             // label1
             // 
@@ -161,6 +162,7 @@
             this.Controls.Add(this.chk_terraza);
             this.Name = "Consulta_Viviendas";
             this.Text = "Consulta_Viviendas";
+            this.Load += new System.EventHandler(this.Consulta_Viviendas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
