@@ -1,6 +1,6 @@
 ﻿namespace TP2_Inmobiliaria_grupo_4
 {
-    partial class Consulta_Viviendas
+    partial class form_Consulta_Viviendas
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Consulta_Viviendas));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(form_Consulta_Viviendas));
             this.chk_terraza = new System.Windows.Forms.CheckBox();
             this.chk_piscina = new System.Windows.Forms.CheckBox();
             this.chk_garaje = new System.Windows.Forms.CheckBox();
@@ -145,7 +145,7 @@
             this.label1.TabIndex = 9;
             this.label1.Text = "Seleccione las caracteristicas de la vivienda:";
             // 
-            // Consulta_Viviendas
+            // form_Consulta_Viviendas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -160,7 +160,7 @@
             this.Controls.Add(this.chk_piscina);
             this.Controls.Add(this.chk_jardin);
             this.Controls.Add(this.chk_terraza);
-            this.Name = "Consulta_Viviendas";
+            this.Name = "form_Consulta_Viviendas";
             this.Text = "Consulta_Viviendas";
             this.Load += new System.EventHandler(this.Consulta_Viviendas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

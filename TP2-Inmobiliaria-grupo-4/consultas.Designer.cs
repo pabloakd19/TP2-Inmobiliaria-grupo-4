@@ -28,13 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.btn_cons_viviendas = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // btn_cons_viviendas
+            // 
+            this.btn_cons_viviendas.Location = new System.Drawing.Point(227, 230);
+            this.btn_cons_viviendas.Name = "btn_cons_viviendas";
+            this.btn_cons_viviendas.Size = new System.Drawing.Size(118, 23);
+            this.btn_cons_viviendas.TabIndex = 0;
+            this.btn_cons_viviendas.Text = "Consultar Viviendas";
+            this.btn_cons_viviendas.UseVisualStyleBackColor = true;
+            this.btn_cons_viviendas.Click += new System.EventHandler(this.btn_cons_viviendas_Click);
             // 
             // form_consultas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn_cons_viviendas);
             this.Name = "form_consultas";
             this.RightToLeftLayout = true;
             this.Text = "Consultas";
@@ -43,5 +55,7 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btn_cons_viviendas;
     }
 }

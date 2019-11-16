@@ -12,7 +12,7 @@ using System.Data.SqlClient;
 
 namespace TP2_Inmobiliaria_grupo_4
 {
-    public partial class Consulta_Viviendas : Form
+    public partial class form_Consulta_Viviendas : Form
     {
         // variable global cadena de conexion
         string cadena = "data source = LAPTOP-BDOHKMHV;" + // servidor
@@ -21,7 +21,7 @@ namespace TP2_Inmobiliaria_grupo_4
 
         SqlConnection cn;
 
-        public Consulta_Viviendas()
+        public form_Consulta_Viviendas()
         {
             InitializeComponent();
         }

@@ -16,5 +16,11 @@ namespace TP2_Inmobiliaria_grupo_4
         {
             InitializeComponent();
         }
+
+        private void btn_cons_viviendas_Click(object sender, EventArgs e)
+        {
+            form_Consulta_Viviendas Consulta_Viviendas = new form_Consulta_Viviendas();
+            Consulta_Viviendas.Show();
+        }
     }
 }

@@ -72,6 +72,7 @@
             this.btn_consultas.TabIndex = 3;
             this.btn_consultas.Text = "Consultas";
             this.btn_consultas.UseVisualStyleBackColor = true;
+            this.btn_consultas.Click += new System.EventHandler(this.btn_consultas_Click);
             // 
             // btn_salir
             // 
