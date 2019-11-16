@@ -71,6 +71,18 @@
     <Compile Include="consultas.Designer.cs">
       <DependentUpon>consultas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_consulta1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_consulta1.Designer.cs">
+      <DependentUpon>Form_consulta1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_consulta2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_consulta2.Designer.cs">
+      <DependentUpon>Form_consulta2.cs</DependentUpon>
+    </Compile>
     <Compile Include="menu.cs">
       <SubType>Form</SubType>
     </Compile>
