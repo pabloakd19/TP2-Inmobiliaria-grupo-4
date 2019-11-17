@@ -37,5 +37,16 @@ namespace TP2_Inmobiliaria_grupo_4
         {
           this.Close();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_consultas_Click(object sender, EventArgs e)
+        {
+            form_consultas consultas = new form_consultas();
+            consultas.Show();
+        }
     }
 }
