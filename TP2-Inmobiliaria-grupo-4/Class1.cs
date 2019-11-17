@@ -19,9 +19,9 @@ namespace TP2_Inmobiliaria_grupo_4
 
 
 
-         //   return @"data source = USUARIO-RMGTSE8\SQLEXPRESS;" +
-         //               "initial catalog = Promociones_inmobiliarias;" + //nombre base de datos
-         //                "integrated security = SSPI";
+           // return @"data source = USUARIO-RMGTSE8\SQLEXPRESS;" +
+           //             "initial catalog = Promociones_inmobiliarias;" + //nombre base de datos
+            //             "integrated security = SSPI";
            
         }
     }
