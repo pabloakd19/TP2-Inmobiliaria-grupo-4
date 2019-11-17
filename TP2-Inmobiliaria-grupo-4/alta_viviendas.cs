@@ -69,6 +69,7 @@ namespace TP2_Inmobiliaria_grupo_4
 
         private void Button1_Click(object sender, EventArgs e)
         {
+            //cierra solamente el formulario
             this.Close();
         }
     }

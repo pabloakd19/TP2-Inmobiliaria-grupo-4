@@ -11,7 +11,9 @@ namespace TP2_Inmobiliaria_grupo_4
     {
         public static string Cadena()
         {
-            return "data source=192.168.1.46";
+            return "data source=192.168.1.46;" + //servidor
+                    "initial catalog = Promociones_inmobiliarias;" + //base de datos
+                    "uid = sa;pwd=entrerios757";
 
 
 
@@ -19,10 +21,10 @@ namespace TP2_Inmobiliaria_grupo_4
 
 
 
-           // return @"data source = USUARIO-RMGTSE8\SQLEXPRESS;" +
-           //             "initial catalog = Promociones_inmobiliarias;" + //nombre base de datos
+            //return @"data source = USUARIO-RMGTSE8\SQLEXPRESS;" +
+            //            "initial catalog = Promociones_inmobiliarias;" + //nombre base de datos
             //             "integrated security = SSPI";
-           
+
         }
     }
 }
