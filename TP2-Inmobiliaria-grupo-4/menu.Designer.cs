@@ -63,6 +63,7 @@
             this.btn_alta_promociones.TabIndex = 2;
             this.btn_alta_promociones.Text = "Alta Promociones";
             this.btn_alta_promociones.UseVisualStyleBackColor = true;
+            this.btn_alta_promociones.Click += new System.EventHandler(this.btn_alta_promociones_Click);
             // 
             // btn_consultas
             // 
