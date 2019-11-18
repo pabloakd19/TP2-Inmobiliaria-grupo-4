@@ -58,9 +58,9 @@ namespace TP2_Inmobiliaria_grupo_4
             }
 
 
-            da2 = new SqlDataAdapter("select * from viviendas where" +
-                " garage = " + gar + " and terraza = " + ter +
-                " and piscina = " + pis + " and jardin = " + jar , cn);
+            da2 = new SqlDataAdapter("select * from viviendas where"+
+                " garage = "+ gar +" and terraza = "+ ter +
+                " and piscina = "+ pis +" and jardin = " + jar , cn);
 
 
             da2.Fill(dt2);
