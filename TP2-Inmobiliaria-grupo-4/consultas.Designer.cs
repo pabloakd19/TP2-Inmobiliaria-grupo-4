@@ -50,6 +50,7 @@
             this.Name = "form_consultas";
             this.RightToLeftLayout = true;
             this.Text = "Consultas";
+            this.Load += new System.EventHandler(this.form_consultas_Load);
             this.ResumeLayout(false);
 
         }

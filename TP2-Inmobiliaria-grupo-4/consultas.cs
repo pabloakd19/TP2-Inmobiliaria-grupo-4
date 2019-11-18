@@ -22,5 +22,10 @@ namespace TP2_Inmobiliaria_grupo_4
             form_Consulta_Viviendas Consulta_Viviendas = new form_Consulta_Viviendas();
             Consulta_Viviendas.Show();
         }
+
+        private void form_consultas_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
