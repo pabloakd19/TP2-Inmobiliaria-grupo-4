@@ -14,11 +14,6 @@ namespace TP2_Inmobiliaria_grupo_4
 {
     public partial class form_Consulta_Viviendas : Form
     {
-        // variable global cadena de conexion
-        string cadena = "data source = LAPTOP-BDOHKMHV;" + // servidor
-                      "initial catalog = Inmobiliaria;" + // base de datos
-                      "integrated security = SSPI";
-
         SqlConnection cn;
 
         public form_Consulta_Viviendas()
@@ -28,7 +23,7 @@ namespace TP2_Inmobiliaria_grupo_4
 
         private void Consulta_Viviendas_Load(object sender, EventArgs e)
         {
-            cn = new SqlConnection(cadena);
+            cn = new SqlConnection(Class1.Cadena());
         }
 
         private void btn_consulta4_Click(object sender, EventArgs e)
