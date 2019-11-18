@@ -39,12 +39,12 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.btn_consulta4 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dataGrid_con_viv = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGrid_con_viv)).BeginInit();
             this.SuspendLayout();
             // 
             // chk_terraza
@@ -147,20 +147,20 @@
             this.label1.TabIndex = 9;
             this.label1.Text = "Seleccione las caracteristicas de la vivienda:";
             // 
-            // dataGridView1
+            // dataGrid_con_viv
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(115, 229);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(679, 266);
-            this.dataGridView1.TabIndex = 10;
+            this.dataGrid_con_viv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGrid_con_viv.Location = new System.Drawing.Point(115, 229);
+            this.dataGrid_con_viv.Name = "dataGrid_con_viv";
+            this.dataGrid_con_viv.Size = new System.Drawing.Size(679, 266);
+            this.dataGrid_con_viv.TabIndex = 10;
             // 
             // form_Consulta_Viviendas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(860, 507);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dataGrid_con_viv);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_consulta4);
             this.Controls.Add(this.pictureBox4);
@@ -178,7 +178,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGrid_con_viv)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -196,6 +196,6 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Button btn_consulta4;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dataGrid_con_viv;
     }
 }
