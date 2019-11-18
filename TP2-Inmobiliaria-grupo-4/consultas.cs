@@ -34,5 +34,10 @@ namespace TP2_Inmobiliaria_grupo_4
             Form_consulta2 consulta2 = new Form_consulta2();
             consulta2.Show();
         }
+
+        private void form_consultas_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

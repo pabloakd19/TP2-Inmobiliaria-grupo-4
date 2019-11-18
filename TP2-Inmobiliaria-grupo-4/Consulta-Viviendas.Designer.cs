@@ -39,10 +39,12 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.btn_consulta4 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.dataGrid_con_viv = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGrid_con_viv)).BeginInit();
             this.SuspendLayout();
             // 
             // chk_terraza
@@ -68,7 +70,7 @@
             // chk_garaje
             // 
             this.chk_garaje.AutoSize = true;
-            this.chk_garaje.Location = new System.Drawing.Point(256, 204);
+            this.chk_garaje.Location = new System.Drawing.Point(655, 60);
             this.chk_garaje.Name = "chk_garaje";
             this.chk_garaje.Size = new System.Drawing.Size(57, 17);
             this.chk_garaje.TabIndex = 3;
@@ -78,7 +80,7 @@
             // chk_jardin
             // 
             this.chk_jardin.AutoSize = true;
-            this.chk_jardin.Location = new System.Drawing.Point(70, 204);
+            this.chk_jardin.Location = new System.Drawing.Point(469, 60);
             this.chk_jardin.Name = "chk_jardin";
             this.chk_jardin.Size = new System.Drawing.Size(54, 17);
             this.chk_jardin.TabIndex = 1;
@@ -88,9 +90,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(70, 227);
+            this.pictureBox1.Location = new System.Drawing.Point(469, 83);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(134, 100);
+            this.pictureBox1.Size = new System.Drawing.Size(134, 94);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
@@ -118,18 +120,18 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(256, 227);
+            this.pictureBox4.Location = new System.Drawing.Point(655, 83);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(147, 100);
+            this.pictureBox4.Size = new System.Drawing.Size(139, 94);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 7;
             this.pictureBox4.TabStop = false;
             // 
             // btn_consulta4
             // 
-            this.btn_consulta4.Location = new System.Drawing.Point(446, 141);
+            this.btn_consulta4.Location = new System.Drawing.Point(303, 189);
             this.btn_consulta4.Name = "btn_consulta4";
-            this.btn_consulta4.Size = new System.Drawing.Size(105, 80);
+            this.btn_consulta4.Size = new System.Drawing.Size(262, 34);
             this.btn_consulta4.TabIndex = 8;
             this.btn_consulta4.Text = "Consultar Viviendas";
             this.btn_consulta4.UseVisualStyleBackColor = true;
@@ -145,11 +147,20 @@
             this.label1.TabIndex = 9;
             this.label1.Text = "Seleccione las caracteristicas de la vivienda:";
             // 
+            // dataGrid_con_viv
+            // 
+            this.dataGrid_con_viv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGrid_con_viv.Location = new System.Drawing.Point(115, 229);
+            this.dataGrid_con_viv.Name = "dataGrid_con_viv";
+            this.dataGrid_con_viv.Size = new System.Drawing.Size(679, 266);
+            this.dataGrid_con_viv.TabIndex = 10;
+            // 
             // form_Consulta_Viviendas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(666, 363);
+            this.ClientSize = new System.Drawing.Size(860, 507);
+            this.Controls.Add(this.dataGrid_con_viv);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_consulta4);
             this.Controls.Add(this.pictureBox4);
@@ -167,6 +178,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGrid_con_viv)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -184,5 +196,6 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Button btn_consulta4;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DataGridView dataGrid_con_viv;
     }
 }

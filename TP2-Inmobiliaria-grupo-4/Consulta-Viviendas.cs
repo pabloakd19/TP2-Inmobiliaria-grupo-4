@@ -14,11 +14,6 @@ namespace TP2_Inmobiliaria_grupo_4
 {
     public partial class form_Consulta_Viviendas : Form
     {
-        // variable global cadena de conexion
-        string cadena = "data source = LAPTOP-BDOHKMHV;" + // servidor
-                      "initial catalog = Inmobiliaria;" + // base de datos
-                      "integrated security = SSPI";
-
         SqlConnection cn;
 
         public form_Consulta_Viviendas()
@@ -28,24 +23,50 @@ namespace TP2_Inmobiliaria_grupo_4
 
         private void Consulta_Viviendas_Load(object sender, EventArgs e)
         {
-            cn = new SqlConnection(cadena);
+            cn = new SqlConnection(Class1.Cadena());
         }
 
         private void btn_consulta4_Click(object sender, EventArgs e)
         {
+            
             cn.Open();
 
             DataTable dt2 = new DataTable();
             SqlDataAdapter da2;
 
-            da2 = new SqlDataAdapter("select ** from viviendas, promociones, viviendas-promociones where" +
-                " garaje = " + chk_garaje.Checked + 
-                " and terraza = " + chk_terraza.Checked +
-                " and piscina = " + chk_piscina.Checked + 
-                " and jardin = " + chk_jardin.Checked , cn);
+            int gar = 0;
+            int pis = 0;
+            int jar = 0;
+            int ter = 0;
+
+            
+            if (chk_garaje.Checked)
+            {
+                gar = 1;
+            }
+            if (chk_jardin.Checked)
+            {
+                jar = 1;
+            }
+            if (chk_piscina.Checked)
+            {
+                pis = 1;
+            }
+            if (chk_terraza.Checked)
+            {
+                ter = 1;
+            }
+
+
+            da2 = new SqlDataAdapter("select * from viviendas where"+
+                " garage = "+ gar +" and terraza = "+ ter +
+                " and piscina = "+ pis +" and jardin = " + jar , cn);
 
 
             da2.Fill(dt2);
+
+            dataGrid_con_viv.DataSource = dt2;
+
 
             cn.Close();
 
