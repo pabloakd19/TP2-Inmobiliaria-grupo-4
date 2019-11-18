@@ -17,7 +17,7 @@ namespace TP2_Inmobiliaria_grupo_4
              //  return @"data source = LAPTOP-BDOHKMHV;" +
              //              "initial catalog = Promociones_inmobiliarias;" + //nombre base de datos
              //               "integrated security = SSPI";
-
+             //
 
 
 
