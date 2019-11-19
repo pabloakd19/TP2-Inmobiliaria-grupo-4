@@ -13,10 +13,7 @@ namespace TP2_Inmobiliaria_grupo_4
 {
     public partial class Form_consulta1 : Form
     {
-        //variables globales
-        //string cadena = @"data source = DESKTOP-VM0VUTF\SQLEXPRESS01;" +//nombre servidor
-        //                    " initial catalog = Promociones_inmobiliarias ;" + //nombre base de datos
-        //                    " integrated security=sspi ";
+        
         SqlConnection cn; //variable para la conexion
 
         public Form_consulta1()
@@ -26,7 +23,6 @@ namespace TP2_Inmobiliaria_grupo_4
 
         private void btn_consulta_Click(object sender, EventArgs e)
         {
-
             DataTable dt = new DataTable();
             cn.Open();
             SqlDataAdapter da = new SqlDataAdapter ("select Viviendas.vivienda_id from Empresas,Viviendas,Promociones,promociones_empresas" +
@@ -37,22 +33,12 @@ namespace TP2_Inmobiliaria_grupo_4
             da.Fill(dt);
             cn.Close();
             dataGridView1.DataSource = dt;
-
         }
 
         private void Form_consulta1_Load(object sender, EventArgs e)
         {
-            cn = new SqlConnection(cadena);
+            cn = new SqlConnection(Class1.Cadena());
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
     }
 }

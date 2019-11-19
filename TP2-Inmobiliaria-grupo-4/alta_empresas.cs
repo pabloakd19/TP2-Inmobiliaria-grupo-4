@@ -18,27 +18,7 @@ namespace TP2_Inmobiliaria_grupo_4
         {
             InitializeComponent();
         }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
+              
         private void form_alta_empresas_Load(object sender, EventArgs e)
         {
             cn = new SqlConnection(Class1.Cadena());
@@ -67,7 +47,7 @@ namespace TP2_Inmobiliaria_grupo_4
 
         private void btn_agregar_Click(object sender, EventArgs e)
         {
-            //Para realzar el alta de una nueva Empresa
+            //Abro conexion para realizar el alta de una nueva Empresa
             cn.Open();
             SqlCommand com = new SqlCommand("insert into Empresas " +
                 "(nombre,tipo,direccion,telefono,fax,email)" +
@@ -82,9 +62,8 @@ namespace TP2_Inmobiliaria_grupo_4
 
             com.ExecuteNonQuery();
             cn.Close();
-            //MessageBox.Show("Alta exitosa");
-
-            // Recardo el Datagrid con la nueva alta
+ 
+            // Recardo el Datagrid para reflejar la nueva alta
             cn.Open();
             DataTable dt2 = new DataTable();
             SqlDataAdapter da2;

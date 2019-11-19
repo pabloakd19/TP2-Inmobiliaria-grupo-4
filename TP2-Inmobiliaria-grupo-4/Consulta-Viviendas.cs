@@ -38,7 +38,6 @@ namespace TP2_Inmobiliaria_grupo_4
             int pis = 0;
             int jar = 0;
             int ter = 0;
-
             
             if (chk_garaje.Checked)
             {
@@ -57,16 +56,13 @@ namespace TP2_Inmobiliaria_grupo_4
                 ter = 1;
             }
 
-
             da2 = new SqlDataAdapter("select * from viviendas where"+
                 " garage = "+ gar +" and terraza = "+ ter +
                 " and piscina = "+ pis +" and jardin = " + jar , cn);
 
-
             da2.Fill(dt2);
 
             dataGrid_con_viv.DataSource = dt2;
-
 
             cn.Close();
 

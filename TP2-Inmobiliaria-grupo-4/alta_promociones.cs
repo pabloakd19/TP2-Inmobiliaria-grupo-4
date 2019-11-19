@@ -52,7 +52,7 @@ namespace TP2_Inmobiliaria_grupo_4
             cn.Close();
             //MessageBox.Show("Alta exitosa");
             
-            // Recardo el Datagrid con la nueva alta
+            // Recargo el Datagrid con la nueva alta
             cn.Open();
             DataTable dt2 = new DataTable();
             SqlDataAdapter da2;
@@ -68,14 +68,5 @@ namespace TP2_Inmobiliaria_grupo_4
             this.Close();
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
     }
 }

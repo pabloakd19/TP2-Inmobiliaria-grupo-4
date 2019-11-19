@@ -54,7 +54,7 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Cargar Nueva Promocion";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            
             // 
             // button1
             // 
@@ -116,7 +116,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(386, 298);
             this.dataGridView1.TabIndex = 2;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            
             // 
             // form_alta_promociones
             // 
