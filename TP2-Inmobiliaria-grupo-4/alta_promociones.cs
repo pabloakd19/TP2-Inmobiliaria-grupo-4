@@ -24,14 +24,25 @@ namespace TP2_Inmobiliaria_grupo_4
         {
             cn = new SqlConnection(Class1.Cadena());
             cn.Open();
+
+            DataTable dt2 = new DataTable();
+            SqlDataAdapter da2;
+
+            da2 = new SqlDataAdapter("select * from Promociones", cn);
+
+            da2.Fill(dt2);
+
+            dataGridView1.DataSource = dt2;
+            cn.Close();
+            //cn.Open();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //para dar de alta wacheen
+            //Para realzar el alta de una nueva Promocion
             cn.Open();
             SqlCommand com = new SqlCommand("insert into Promociones " +
-                "(nombre, poblacion)" +
+                "(nombre,poblacion)" +
                 "values(@nombre, @poblacion )", cn);
 
             com.Parameters.AddWithValue("@nombre", tb_Nombre.Text);
@@ -39,7 +50,32 @@ namespace TP2_Inmobiliaria_grupo_4
 
             com.ExecuteNonQuery();
             cn.Close();
-            MessageBox.Show("Alta exitosa");
+            //MessageBox.Show("Alta exitosa");
+            
+            // Recardo el Datagrid con la nueva alta
+            cn.Open();
+            DataTable dt2 = new DataTable();
+            SqlDataAdapter da2;
+            da2 = new SqlDataAdapter("select * from Promociones", cn);
+            da2.Fill(dt2);
+            dataGridView1.DataSource = dt2;
+            cn.Close();
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }

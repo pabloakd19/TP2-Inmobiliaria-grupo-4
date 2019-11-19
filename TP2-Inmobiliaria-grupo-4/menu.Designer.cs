@@ -55,6 +55,7 @@
             this.btn_alta_empresas.TabIndex = 1;
             this.btn_alta_empresas.Text = "Alta Empresas";
             this.btn_alta_empresas.UseVisualStyleBackColor = true;
+            this.btn_alta_empresas.Click += new System.EventHandler(this.btn_alta_empresas_Click);
             // 
             // btn_alta_promociones
             // 

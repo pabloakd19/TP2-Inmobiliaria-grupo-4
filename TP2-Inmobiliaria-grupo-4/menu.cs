@@ -48,9 +48,16 @@ namespace TP2_Inmobiliaria_grupo_4
 
         private void btn_alta_promociones_Click(object sender, EventArgs e)
         {
-            //alta_promociones alta_promociones = new alta_promociones();
-            //alta_promociones.Show();
+            form_alta_promociones alta_promociones = new form_alta_promociones();
+            alta_promociones.Show();
+            //form_alta_viviendas alta_viviendas = new form_alta_viviendas();
+        //    alta_viviendas.Show();
+        }
 
+        private void btn_alta_empresas_Click(object sender, EventArgs e)
+        {
+            form_alta_empresas alta_empresas = new form_alta_empresas();
+            alta_empresas.Show();
         }
     }
 }
