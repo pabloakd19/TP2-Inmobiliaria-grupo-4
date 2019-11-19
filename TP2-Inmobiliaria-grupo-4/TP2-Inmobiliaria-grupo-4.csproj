@@ -159,5 +159,17 @@
   <ItemGroup>
     <None Include="Resources\consultainmobi.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\garaje2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jardin.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\piscina.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\terraza.jfif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
