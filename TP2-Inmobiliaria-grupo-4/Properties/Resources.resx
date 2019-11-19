@@ -118,22 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="consultainmobi" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\consultainmobi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="2019-11-14_1821" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2019-11-14_1821.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="garaje2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\garaje2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="jardin" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\jardin.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="consultainmobi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\consultainmobi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="piscina" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\piscina.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="jardin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jardin.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2019-11-14_1821" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2019-11-14_1821.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="terraza" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\terraza.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="promociones-inmobiliarias" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\promociones-inmobiliarias.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

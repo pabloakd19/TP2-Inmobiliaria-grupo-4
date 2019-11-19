@@ -32,7 +32,9 @@
             this.txt_promoid = new System.Windows.Forms.TextBox();
             this.btn_consulta3 = new System.Windows.Forms.Button();
             this.dataGrid_cons_prom = new System.Windows.Forms.DataGridView();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGrid_cons_prom)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -71,11 +73,22 @@
             this.dataGrid_cons_prom.Size = new System.Drawing.Size(816, 286);
             this.dataGrid_cons_prom.TabIndex = 13;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::TP2_Inmobiliaria_grupo_4.Properties.Resources.promociones_inmobiliarias;
+            this.pictureBox1.Location = new System.Drawing.Point(601, 21);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(223, 69);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 14;
+            this.pictureBox1.TabStop = false;
+            // 
             // form_Consulta_Promociones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(836, 412);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.dataGrid_cons_prom);
             this.Controls.Add(this.btn_consulta3);
             this.Controls.Add(this.txt_promoid);
@@ -84,6 +97,7 @@
             this.Text = "Consulta Promociones";
             this.Load += new System.EventHandler(this.Consulta_Promociones_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGrid_cons_prom)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -95,5 +109,6 @@
         private System.Windows.Forms.TextBox txt_promoid;
         private System.Windows.Forms.Button btn_consulta3;
         private System.Windows.Forms.DataGridView dataGrid_cons_prom;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

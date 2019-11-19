@@ -113,6 +113,16 @@ namespace TP2_Inmobiliaria_grupo_4.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap promociones_inmobiliarias {
+            get {
+                object obj = ResourceManager.GetObject("promociones-inmobiliarias", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap terraza {
             get {
                 object obj = ResourceManager.GetObject("terraza", resourceCulture);

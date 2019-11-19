@@ -171,5 +171,8 @@
   <ItemGroup>
     <None Include="Resources\terraza.jfif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\promociones-inmobiliarias.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
