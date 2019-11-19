@@ -34,6 +34,7 @@
             this.btn_consultas = new System.Windows.Forms.Button();
             this.btn_salir = new System.Windows.Forms.Button();
             this.btn_aboutus = new System.Windows.Forms.Button();
+            this.lbl_version = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn_alta_viviendas
@@ -95,12 +96,22 @@
             this.btn_aboutus.UseVisualStyleBackColor = true;
             this.btn_aboutus.Click += new System.EventHandler(this.btn_aboutus_Click);
             // 
+            // lbl_version
+            // 
+            this.lbl_version.AutoSize = true;
+            this.lbl_version.Location = new System.Drawing.Point(13, 19);
+            this.lbl_version.Name = "lbl_version";
+            this.lbl_version.Size = new System.Drawing.Size(22, 13);
+            this.lbl_version.TabIndex = 7;
+            this.lbl_version.Text = "0.1";
+            // 
             // form_menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::TP2_Inmobiliaria_grupo_4.Properties.Resources._2019_11_14_1821;
             this.ClientSize = new System.Drawing.Size(1179, 392);
+            this.Controls.Add(this.lbl_version);
             this.Controls.Add(this.btn_aboutus);
             this.Controls.Add(this.btn_salir);
             this.Controls.Add(this.btn_consultas);
@@ -111,6 +122,7 @@
             this.Text = "Inmobiliaria GITHUB";
             this.Load += new System.EventHandler(this.form_menu_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -122,5 +134,6 @@
         private System.Windows.Forms.Button btn_consultas;
         private System.Windows.Forms.Button btn_salir;
         private System.Windows.Forms.Button btn_aboutus;
+        private System.Windows.Forms.Label lbl_version;
     }
 }
