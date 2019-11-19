@@ -39,5 +39,11 @@ namespace TP2_Inmobiliaria_grupo_4
         {
 
         }
+
+        private void btn_cons_promos_Click(object sender, EventArgs e)
+        {
+            form_Consulta_Promociones Consulta_Promociones = new form_Consulta_Promociones();
+            Consulta_Promociones.Show();
+        }
     }
 }

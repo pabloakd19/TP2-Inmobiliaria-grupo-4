@@ -12,11 +12,11 @@ using System.Data.SqlClient;
 
 namespace TP2_Inmobiliaria_grupo_4
 {
-    public partial class Consulta_Promociones : Form
+    public partial class form_Consulta_Promociones : Form
     {
         SqlConnection cn;
 
-        public Consulta_Promociones()
+        public form_Consulta_Promociones()
         {
             InitializeComponent();
         }

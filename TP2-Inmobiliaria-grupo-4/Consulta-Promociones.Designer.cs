@@ -1,6 +1,6 @@
 ﻿namespace TP2_Inmobiliaria_grupo_4
 {
-    partial class Consulta_Promociones
+    partial class form_Consulta_Promociones
     {
         /// <summary>
         /// Required designer variable.
@@ -71,7 +71,7 @@
             this.dataGrid_cons_prom.Size = new System.Drawing.Size(816, 286);
             this.dataGrid_cons_prom.TabIndex = 13;
             // 
-            // Consulta_Promociones
+            // form_Consulta_Promociones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -80,7 +80,7 @@
             this.Controls.Add(this.btn_consulta3);
             this.Controls.Add(this.txt_promoid);
             this.Controls.Add(this.label1);
-            this.Name = "Consulta_Promociones";
+            this.Name = "form_Consulta_Promociones";
             this.Text = "Consulta Promociones";
             this.Load += new System.EventHandler(this.Consulta_Promociones_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGrid_cons_prom)).EndInit();

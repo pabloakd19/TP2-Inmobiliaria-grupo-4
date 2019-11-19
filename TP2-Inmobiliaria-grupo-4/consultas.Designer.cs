@@ -31,6 +31,7 @@
             this.btn_cons_viviendas = new System.Windows.Forms.Button();
             this.btn_consulta1 = new System.Windows.Forms.Button();
             this.btn_consulta2 = new System.Windows.Forms.Button();
+            this.btn_cons_promos = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_cons_viviendas
@@ -63,11 +64,22 @@
             this.btn_consulta2.UseVisualStyleBackColor = true;
             this.btn_consulta2.Click += new System.EventHandler(this.btn_consulta2_Click);
             // 
+            // btn_cons_promos
+            // 
+            this.btn_cons_promos.Location = new System.Drawing.Point(227, 268);
+            this.btn_cons_promos.Name = "btn_cons_promos";
+            this.btn_cons_promos.Size = new System.Drawing.Size(118, 23);
+            this.btn_cons_promos.TabIndex = 3;
+            this.btn_cons_promos.Text = "Consultar Promoción";
+            this.btn_cons_promos.UseVisualStyleBackColor = true;
+            this.btn_cons_promos.Click += new System.EventHandler(this.btn_cons_promos_Click);
+            // 
             // form_consultas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn_cons_promos);
             this.Controls.Add(this.btn_consulta2);
             this.Controls.Add(this.btn_consulta1);
             this.Controls.Add(this.btn_cons_viviendas);
@@ -84,5 +96,6 @@
         private System.Windows.Forms.Button btn_cons_viviendas;
         private System.Windows.Forms.Button btn_consulta1;
         private System.Windows.Forms.Button btn_consulta2;
+        private System.Windows.Forms.Button btn_cons_promos;
     }
 }
