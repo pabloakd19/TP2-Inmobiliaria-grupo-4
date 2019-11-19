@@ -23,7 +23,7 @@ namespace TP2_Inmobiliaria_grupo_4
         private void form_alta_promociones_Load(object sender, EventArgs e)
         {
             cn = new SqlConnection(Class1.Cadena());
-            cn.Open();
+            
         }
 
         private void button1_Click(object sender, EventArgs e)

@@ -14,9 +14,9 @@ namespace TP2_Inmobiliaria_grupo_4
     public partial class Form_consulta2 : Form
     {
         //variables globales
-        string cadena = @"data source = DESKTOP-VM0VUTF\SQLEXPRESS01;" +//nombre servidor
-                            " initial catalog = Promociones_inmobiliarias ;" + //nombre base de datos
-                            " integrated security=sspi ";
+        //string cadena = @"data source = DESKTOP-VM0VUTF\SQLEXPRESS01;" +//nombre servidor
+        //                    " initial catalog = Promociones_inmobiliarias ;" + //nombre base de datos
+        //                    " integrated security=sspi ";
         SqlConnection cn; //variable para la conexion
 
         public Form_consulta2()
@@ -43,7 +43,8 @@ namespace TP2_Inmobiliaria_grupo_4
 
         private void Form_consulta2_Load(object sender, EventArgs e)
         {
-            cn = new SqlConnection(cadena);
+            cn = new SqlConnection(Class1.Cadena());
+            
             DataTable dt = new DataTable();
             cn.Open();
             SqlDataAdapter da = new SqlDataAdapter("select * from Promociones", cn);
