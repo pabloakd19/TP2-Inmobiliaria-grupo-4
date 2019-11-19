@@ -11,12 +11,12 @@ namespace TP2_Inmobiliaria_grupo_4
     {
         public static string Cadena()
         {
-              return "data source=192.168.1.46";
+             // return "data source=192.168.1.46";
 
             // Pablo Tartalo
-             // return @"data source = LAPTOP-BDOHKMHV;" +
-            //               "initial catalog = Promociones_inmobiliarias;" + //nombre base de datos
-            //                "integrated security = SSPI";
+              return @"data source = LAPTOP-BDOHKMHV;" +
+                           "initial catalog = Promociones_inmobiliarias;" + //nombre base de datos
+                            "integrated security = SSPI";
              //
 
 

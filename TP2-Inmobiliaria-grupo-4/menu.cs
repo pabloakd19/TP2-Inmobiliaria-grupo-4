@@ -48,7 +48,7 @@ namespace TP2_Inmobiliaria_grupo_4
 
         private void btn_alta_promociones_Click(object sender, EventArgs e)
         {
-            alta_promociones alta_promociones = new alta_promociones();
+            form_alta_promociones alta_promociones = new form_alta_promociones();
             alta_promociones.Show();
 
         }

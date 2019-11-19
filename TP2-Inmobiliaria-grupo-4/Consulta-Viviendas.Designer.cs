@@ -50,7 +50,7 @@
             // chk_terraza
             // 
             this.chk_terraza.AutoSize = true;
-            this.chk_terraza.Location = new System.Drawing.Point(70, 60);
+            this.chk_terraza.Location = new System.Drawing.Point(128, 60);
             this.chk_terraza.Name = "chk_terraza";
             this.chk_terraza.Size = new System.Drawing.Size(62, 17);
             this.chk_terraza.TabIndex = 0;
@@ -60,7 +60,7 @@
             // chk_piscina
             // 
             this.chk_piscina.AutoSize = true;
-            this.chk_piscina.Location = new System.Drawing.Point(256, 60);
+            this.chk_piscina.Location = new System.Drawing.Point(314, 60);
             this.chk_piscina.Name = "chk_piscina";
             this.chk_piscina.Size = new System.Drawing.Size(60, 17);
             this.chk_piscina.TabIndex = 2;
@@ -70,7 +70,7 @@
             // chk_garaje
             // 
             this.chk_garaje.AutoSize = true;
-            this.chk_garaje.Location = new System.Drawing.Point(655, 60);
+            this.chk_garaje.Location = new System.Drawing.Point(713, 60);
             this.chk_garaje.Name = "chk_garaje";
             this.chk_garaje.Size = new System.Drawing.Size(57, 17);
             this.chk_garaje.TabIndex = 3;
@@ -80,7 +80,7 @@
             // chk_jardin
             // 
             this.chk_jardin.AutoSize = true;
-            this.chk_jardin.Location = new System.Drawing.Point(469, 60);
+            this.chk_jardin.Location = new System.Drawing.Point(527, 60);
             this.chk_jardin.Name = "chk_jardin";
             this.chk_jardin.Size = new System.Drawing.Size(54, 17);
             this.chk_jardin.TabIndex = 1;
@@ -90,7 +90,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(469, 83);
+            this.pictureBox1.Location = new System.Drawing.Point(527, 83);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(134, 94);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -100,7 +100,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(256, 83);
+            this.pictureBox2.Location = new System.Drawing.Point(314, 83);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(147, 94);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -110,7 +110,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(70, 83);
+            this.pictureBox3.Location = new System.Drawing.Point(128, 83);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(134, 94);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -120,7 +120,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(655, 83);
+            this.pictureBox4.Location = new System.Drawing.Point(713, 83);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(139, 94);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -129,7 +129,7 @@
             // 
             // btn_consulta4
             // 
-            this.btn_consulta4.Location = new System.Drawing.Point(303, 189);
+            this.btn_consulta4.Location = new System.Drawing.Point(361, 189);
             this.btn_consulta4.Name = "btn_consulta4";
             this.btn_consulta4.Size = new System.Drawing.Size(262, 34);
             this.btn_consulta4.TabIndex = 8;
@@ -150,16 +150,16 @@
             // dataGrid_con_viv
             // 
             this.dataGrid_con_viv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGrid_con_viv.Location = new System.Drawing.Point(115, 229);
+            this.dataGrid_con_viv.Location = new System.Drawing.Point(17, 229);
             this.dataGrid_con_viv.Name = "dataGrid_con_viv";
-            this.dataGrid_con_viv.Size = new System.Drawing.Size(679, 266);
+            this.dataGrid_con_viv.Size = new System.Drawing.Size(964, 378);
             this.dataGrid_con_viv.TabIndex = 10;
             // 
             // form_Consulta_Viviendas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(860, 507);
+            this.ClientSize = new System.Drawing.Size(993, 619);
             this.Controls.Add(this.dataGrid_con_viv);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_consulta4);

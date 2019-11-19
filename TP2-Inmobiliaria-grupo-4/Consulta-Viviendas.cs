@@ -58,9 +58,14 @@ namespace TP2_Inmobiliaria_grupo_4
             }
 
 
-            da2 = new SqlDataAdapter("select * from viviendas where"+
+            da2 = new SqlDataAdapter
+                ("select vivienda_id, superficie, nro_habitaciones," +
+                " nro_baños, precio, terraza, jardin, piscina, garage," +
+                " viviendas.promo_id, nombre, poblacion" +
+                " from viviendas, promociones where" +
                 " garage = "+ gar +" and terraza = "+ ter +
-                " and piscina = "+ pis +" and jardin = " + jar , cn);
+                " and piscina = "+ pis +" and jardin = " + jar +
+                "and viviendas.promo_id = promociones.promo_id" , cn);
 
 
             da2.Fill(dt2);
