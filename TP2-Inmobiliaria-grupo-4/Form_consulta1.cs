@@ -29,15 +29,14 @@ namespace TP2_Inmobiliaria_grupo_4
 
             DataTable dt = new DataTable();
             cn.Open();
-            SqlDataAdapter da = new SqlDataAdapter ("select Viviendas.vivienda_id from Empresas,Viviendas,Promociones,promociones_empresas" +
+            SqlDataAdapter da = new SqlDataAdapter ("select Viviendas.* from Empresas,Viviendas,Promociones,promociones_empresas" +
 " where Viviendas.promo_id=Promociones.promo_id" +
 " and promociones_empresas.empresa_id = Empresas.empresa_id" +
 " and promociones_empresas.promo_id = Promociones.promo_id"+
-" and Empresas.nombre like '" + txt_nombre.Text + "' and Empresas.tipo like '" + txt_tipo.Text +"'", cn);
+" and Empresas.nombre like '%" + txt_nombre.Text + "%' and Empresas.tipo like '%" + txt_tipo.Text +"%'", cn);
             da.Fill(dt);
             cn.Close();
             dataGridView1.DataSource = dt;
-
         }
 
         private void Form_consulta1_Load(object sender, EventArgs e)

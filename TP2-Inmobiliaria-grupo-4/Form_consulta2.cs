@@ -32,7 +32,7 @@ namespace TP2_Inmobiliaria_grupo_4
 
             SqlDataAdapter da = new SqlDataAdapter("select Empresas.empresa_id,Empresas.nombre,Empresas.tipo,Viviendas.vivienda_id,Viviendas.superficie " +
                 "from Viviendas,Empresas,Promociones,promociones_empresas"+
-                " where Viviendas.promo_id ="+(comboBox1.SelectedIndex+1)+
+                " where Viviendas.promo_id ="+(comboBox1.SelectedValue)+
                 " and Viviendas.promo_id = Promociones.promo_id"+
                 " and promociones_empresas.promo_id = Promociones.promo_id"+
                 " and Empresas.empresa_id = promociones_empresas.empresa_id", cn);
@@ -48,13 +48,18 @@ namespace TP2_Inmobiliaria_grupo_4
             DataTable dt = new DataTable();
             cn.Open();
             SqlDataAdapter da = new SqlDataAdapter("select * from Promociones", cn);
+            
+
             da.Fill(dt);
             cn.Close();
+            comboBox1.DataSource=dt;
+            comboBox1.ValueMember="promo_id";
+            comboBox1.DisplayMember="nombre";
 
-            for (int i = 0; i < dt.Rows.Count; i++)
-            {
-                    comboBox1.Items.Add(dt.Rows[i][0]);
-            }
+            //for (int i = 0; i < dt.Rows.Count; i++)
+            //{
+            //        comboBox1.Items.Add(dt.Rows[i][0]);
+            //}
 
         }
 

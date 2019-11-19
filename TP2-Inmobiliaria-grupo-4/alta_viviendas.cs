@@ -59,7 +59,7 @@ namespace TP2_Inmobiliaria_grupo_4
             com.Parameters.AddWithValue("@pi", checkBox2.Checked);
             com.Parameters.AddWithValue("@ja", checkBox4.Checked);
             com.Parameters.AddWithValue("@ga", checkBox3.Checked);
-            com.Parameters.AddWithValue("@pro", (comboBox1.SelectedIndex + 1));
+            com.Parameters.AddWithValue("@pro", comboBox1.SelectedValue);
 
 
             com.ExecuteNonQuery();
